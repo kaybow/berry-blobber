@@ -61,8 +61,8 @@ var writeBerries = function (berries) {
     document.write('<dt>protien</dt>');
     document.write('<dd>' + berry.protein + ' g</dd>');
 
-      document.write('</dl>');
-      document.write('</li>');
+    document.write('</dl>');
+    document.write('</li>');
   });
 
   document.write('</ol>');
