@@ -33,7 +33,6 @@ var redCurrant = {
 // END DO NOT CHANGE ZONE
 // ##########################################################
 
-
 var writeBerries = function (berries) {
   document.write('<h1>Berries</h1>');
 
@@ -55,12 +54,12 @@ var writeBerries = function (berries) {
 
     document.write('</dd>');
 
-      document.write('<dt>Energy</dt>');
-      document.write('<dd>' + berry.energy + 'kJ</dd>');
-      document.write('<dt>Carbohydrates</dt>');
-      document.write('<dd>' + berry.carbs + ' g</dd>');
-      document.write('<dt>protien</dt>');
-      document.write('<dd>' + berry.protein + ' g</dd>');
+    document.write('<dt>Energy</dt>');
+    document.write('<dd>' + berry.energy + 'kJ</dd>');
+    document.write('<dt>Carbohydrates</dt>');
+    document.write('<dd>' + berry.carbs + ' g</dd>');
+    document.write('<dt>protien</dt>');
+    document.write('<dd>' + berry.protein + ' g</dd>');
 
       document.write('</dl>');
       document.write('</li>');
